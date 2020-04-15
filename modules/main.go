@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	controllers.RegisterController()
+	controllers.RegisterControllers()
 	http.ListenAndServe(":3000", nil)
 }

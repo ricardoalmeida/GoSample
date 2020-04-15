@@ -6,8 +6,8 @@ import (
 	"net/http"
 )
 
-// RegisterController comment
-func RegisterController() {
+// RegisterControllers comment
+func RegisterControllers() {
 	uc := newUserController()
 
 	http.Handle("/users", *uc)
